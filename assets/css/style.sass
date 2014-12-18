@@ -1,12 +1,26 @@
 @import "normalize"
 @import "bourbon"
-@import "neat"
-@import "sections/header"
 
 body
-    font: 100% Arial, sans-serif
+    font:
+        family: Verdana, Arial, sans-serif
+        size: 95%
     background-color: #fff
     color: #333
 img
     max-width: 100%
+a
+    text-decoration: none
+    opacity: 0.7
+    font-weight: 600
+    +transition()
+                
+    &:hover
+        opacity: 1
+.wrap
+    max-width: 960px
+    margin: 0 auto
     
+@import "sections/header"
+@import "sections/beistet"
+@import "sections/footer"

@@ -363,48 +363,105 @@ table {
 td, th {
   padding: 0; }
 
-/* Neat 1.7.0
- * http://neat.bourbon.io
- * Copyright 2012-2014 thoughtbot, inc.
- * MIT License */
-/* line 2, c:\Program Files (x86)\Prepros\resources\app\ruby\ruby_gems\gems\neat-1.7.0\app\assets\stylesheets/grid/box-sizing */
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 7, c:\Program Files (x86)\Prepros\resources\app\ruby\ruby_gems\gems\neat-1.7.0\app\assets\stylesheets/grid/box-sizing */
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit; }
-
-/* line 1, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
-header {
-  background-image: url(../media/valp.jpg);
-  background-position: center;
-  -webkit-background-size: cover;
-          background-size: cover;
-  height: 400px;
-  position: relative; }
-  /* line 9, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
-  header h1 {
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    right: 0;
-    bottom: 0;
-    left: 10%;
-    font-size: 72px;
-    opacity: 0.6;
-    color: #333; }
-
-/* line 6, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
+/* line 4, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
 body {
-  font: 100% Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 95%;
   background-color: #fff;
   color: #333; }
 
 /* line 10, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
 img {
   max-width: 100%; }
+
+/* line 12, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
+a {
+  text-decoration: none;
+  opacity: 0.7;
+  font-weight: 600;
+  -webkit-transition: all 0.15s ease-out 0s;
+  -moz-transition: all 0.15s ease-out 0s;
+  -o-transition: all 0.15s ease-out 0s;
+     transition: all 0.15s ease-out 0s; }
+  /* line 18, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
+  a:hover {
+    opacity: 1; }
+
+/* line 20, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
+.wrap {
+  max-width: 960px;
+  margin: 0 auto; }
+
+/* line 1, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
+header {
+  background-image: url("../media/valp4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 400px;
+  position: relative;
+  overflow: hidden; }
+  /* line 11, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
+  header h1 {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 72px;
+    opacity: 0.7;
+    color: #fff;
+    padding-right: 370px; }
+  /* line 21, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
+  header nav ul {
+    text-align: right;
+    list-style: none;
+    position: absolute;
+    right: 20px;
+    bottom: 14px; }
+    /* line 26, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
+    header nav ul li {
+      display: inline-block; }
+      /* line 29, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
+      header nav ul li a {
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        margin-left: 20px; }
+
+/* line 1, E:/My Documents/GitHub/hunden-bist/assets/css/sections/footer */
+footer {
+  background-image: url("../media/valp.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center center;
+  height: 300px;
+  position: relative;
+  overflow: hidden; }
+  /* line 11, E:/My Documents/GitHub/hunden-bist/assets/css/sections/footer */
+  footer h3 {
+    margin: 0;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    display: inline;
+    color: #000;
+    opacity: 0.7;
+    font-size: 64px; }
+  /* line 21, E:/My Documents/GitHub/hunden-bist/assets/css/sections/footer */
+  footer nav ul {
+    text-align: right;
+    list-style: none;
+    margin-top: 45px; }
+    /* line 26, E:/My Documents/GitHub/hunden-bist/assets/css/sections/footer */
+    footer nav ul li {
+      margin-bottom: 10px; }
+      /* line 28, E:/My Documents/GitHub/hunden-bist/assets/css/sections/footer */
+      footer nav ul li a {
+        display: block;
+        color: #000;
+        font-size: 20px;
+        margin-right: 20px; }
