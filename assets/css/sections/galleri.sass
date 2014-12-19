@@ -1,0 +1,35 @@
+section#galleri
+    background-color: #dfd
+    
+    .wrap
+        position: relative    
+        overflow: !important
+        
+        img
+            width: 200px
+            height: 125px
+            margin: 10px
+            cursor: pointer
+            padding-bottom: 5px
+            padding-top: 5px
+            +transition()
+            transform: scale(1)
+            
+            
+            &:hover
+                padding-top: 0
+                padding-bottom: 10px
+            
+            &.show        
+                &.aktivbilde
+                    width: 98%
+                    height: 98%
+                    +position(absolute, 1% null null 1%)
+                    z-index: 1
+                    border: 2px solid black
+                    padding: 0
+                    margin: 0
+                    
+                    
+                    &:hover
+                        padding: 0

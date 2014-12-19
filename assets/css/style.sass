@@ -7,12 +7,21 @@ body
         size: 95%
     background-color: #fff
     color: #333
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
 img
     max-width: 100%
+    image-rendering:optimizeSpeed             /* Legal fallback */
+    image-rendering:-moz-crisp-edges          /* Firefox        */
+    image-rendering:-o-crisp-edges            /* Opera          */
+    image-rendering:-webkit-optimize-contrast /* Safari         */
+    image-rendering:optimize-contrast        /* CSS3 Proposed  */
+    -ms-interpolation-mode:bicubic
 a
     text-decoration: none
-    opacity: 0.7
-    font-weight: 600
+    display: inline-block
+    opacity: 0.8
+    font-weight: bold
     +transition()
                 
     &:hover
@@ -21,9 +30,9 @@ a
     max-width: 960px
     margin: 0 auto
     text-align: center
-    padding: 75px 0 75px 0
+    padding: 50px 0 50px 0
     h2
-        margin: 45px 0
+        margin: 40px 0
         color: tan
     p
         max-width: 500px
@@ -32,4 +41,6 @@ a
 @import "sections/header"
 @import "sections/beistet"
 @import "sections/rasene"
+@import "sections/foreldre"
+@import "sections/galleri"
 @import "sections/footer"

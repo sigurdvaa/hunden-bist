@@ -1,13 +1,16 @@
-section.beistet
+section#beistet
+    background-color: #eee
+    
     img
         border-radius: 50%
         width: 300px
         vertical-align: middle
+        padding: 0px
         
     .logo
         display: inline-block
         border-radius: 0
-        margin: 10%
+        margin: 15%
         
         svg
             width:24px
@@ -16,3 +19,17 @@ section.beistet
         
         path
             fill: tan
+                
+@media only screen and (max-width: 900px)
+    
+    section#beistet
+    
+        .logo
+            margin: 5%
+
+@media only screen and (max-width: 470px)
+    
+    section#beistet
+    
+        .logo
+            display: none
