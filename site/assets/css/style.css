@@ -390,7 +390,17 @@ a {
 /* line 20, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
 .wrap {
   max-width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center;
+  padding: 75px 0 75px 0; }
+  /* line 25, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
+  .wrap h2 {
+    margin: 45px 0;
+    color: tan; }
+  /* line 28, E:/My Documents/GitHub/hunden-bist/assets/css/style.sass */
+  .wrap p {
+    max-width: 500px;
+    margin: 20px auto; }
 
 /* line 1, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
 header {
@@ -430,6 +440,35 @@ header {
         color: #fff;
         font-size: 20px;
         margin-left: 20px; }
+
+/* line 2, E:/My Documents/GitHub/hunden-bist/assets/css/sections/beistet */
+section.beistet img {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 300px;
+  vertical-align: middle; }
+/* line 7, E:/My Documents/GitHub/hunden-bist/assets/css/sections/beistet */
+section.beistet .logo {
+  display: inline-block;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  margin: 10%; }
+  /* line 12, E:/My Documents/GitHub/hunden-bist/assets/css/sections/beistet */
+  section.beistet .logo svg {
+    width: 24px;
+    height: 24px;
+    -webkit-transform: scale(2);
+       -moz-transform: scale(2);
+        -ms-transform: scale(2);
+         -o-transform: scale(2);
+            transform: scale(2); }
+  /* line 17, E:/My Documents/GitHub/hunden-bist/assets/css/sections/beistet */
+  section.beistet .logo path {
+    fill: tan; }
+
+/* line 1, E:/My Documents/GitHub/hunden-bist/assets/css/sections/rasene */
+section.rasene {
+  background: #ddd; }
 
 /* line 1, E:/My Documents/GitHub/hunden-bist/assets/css/sections/footer */
 footer {
