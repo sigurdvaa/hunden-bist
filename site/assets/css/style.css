@@ -748,9 +748,16 @@ section#galleri {
         border-color: tan; }
       /* line 28, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
       section#galleri .wrap img.show {
+        background-image: url("../media/small-loader.gif");
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+                background-size: cover;
         width: auto;
         border: 0;
         height: auto;
+        min-width: 211px;
+        min-height: 204px;
         -webkit-box-shadow: 1px 1px 5px black;
                 box-shadow: 1px 1px 5px black;
         -webkit-border-radius: 5px;
@@ -773,11 +780,11 @@ section#galleri {
         right: 0;
         bottom: 0;
         left: 0; }
-        /* line 46, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+        /* line 53, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
         section#galleri .wrap img.show.aktivbilde {
           visibility: visible;
           opacity: 1; }
-    /* line 51, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+    /* line 58, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
     section#galleri .wrap .blackbackground {
       visibility: hidden;
       position: fixed;
@@ -792,12 +799,12 @@ section#galleri {
       -moz-transition: 0.3s;
       -o-transition: 0.3s;
          transition: 0.3s; }
-      /* line 59, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+      /* line 66, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
       section#galleri .wrap .blackbackground.aktiv {
         opacity: 0.8;
         visibility: visible;
         height: auto; }
-    /* line 64, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+    /* line 71, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
     section#galleri .wrap .neste, section#galleri .wrap .forrige, section#galleri .wrap .close {
       visibility: hidden;
       opacity: 0;
@@ -810,27 +817,27 @@ section#galleri {
       color: #eee;
       cursor: pointer;
       z-index: 2; }
-      /* line 74, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+      /* line 81, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
       section#galleri .wrap .neste.aktiv, section#galleri .wrap .forrige.aktiv, section#galleri .wrap .close.aktiv {
         visibility: visible;
         opacity: 0.7; }
-        /* line 78, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+        /* line 85, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
         section#galleri .wrap .neste.aktiv:hover, section#galleri .wrap .forrige.aktiv:hover, section#galleri .wrap .close.aktiv:hover {
           opacity: 1; }
-    /* line 81, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+    /* line 88, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
     section#galleri .wrap .close {
       position: fixed;
       top: -5px;
       right: 15px;
       color: #f88;
       font-size: 50px; }
-    /* line 86, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+    /* line 93, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
     section#galleri .wrap .neste {
       position: fixed;
       top: 50%;
       right: 20px;
       margin-top: -30px; }
-    /* line 90, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
+    /* line 97, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
     section#galleri .wrap .forrige {
       position: fixed;
       top: 50%;
