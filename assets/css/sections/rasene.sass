@@ -1,5 +1,6 @@
 section#rasene
     background: #ddd
+    overflow: hidden
     
     .wrap
         nav.raser
@@ -79,3 +80,16 @@ section#rasene
                 a
                     color: tan
                     font-style: italic
+
+@media only screen and (max-width: 860px)
+    section#rasene
+        .wrap
+            text-align: center
+            nav.raser
+                ul
+                    padding: 0
+                    li
+                        display: block
+                        margin: 15px auto
+
+
