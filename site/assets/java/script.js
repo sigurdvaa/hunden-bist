@@ -116,7 +116,8 @@ function galleriKontroller() {
             if (nr < 10) {
                 nr = '0' + nr;
             }
-            $('.show').attr('src', 'assets/media/small-loader.gif').attr('src', 'assets/media/galleri/' + nr + '.JPG');            
+            $('.show').attr('src', 'assets/media/small-loader.gif');
+            $('.show').attr('src', 'assets/media/galleri/' + nr + '.JPG');            
         } else {            
             if (nr == 1) {
                 nr = 37;
@@ -126,7 +127,8 @@ function galleriKontroller() {
             if (nr < 10) {
                 nr = '0' + nr;
             }
-            $('.show').attr('src', 'assets/media/small-loading.gif').attr('src', 'assets/media/galleri/' + nr + '.JPG');
+            $('.show').attr('src', 'assets/media/small-loading.gif');
+            $('.show').attr('src', 'assets/media/galleri/' + nr + '.JPG');
         }
         
         });
