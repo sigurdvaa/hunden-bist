@@ -106,6 +106,7 @@ function galleriKontroller() {
     $('.gallerikontroll').on('click', function(){
         
         var nr = parseInt($('.show').attr('src').substring(21,23));
+        $('.show').attr('src', 'assets/media/small-loader.gif');
         
         if ($(this).hasClass('neste')) {            
             if (nr == 37) {
@@ -116,7 +117,6 @@ function galleriKontroller() {
             if (nr < 10) {
                 nr = '0' + nr;
             }
-            $('.show').attr('src', 'assets/media/small-loader.gif');
             $('.show').attr('src', 'assets/media/galleri/' + nr + '.JPG');            
         } else {            
             if (nr == 1) {
@@ -127,7 +127,6 @@ function galleriKontroller() {
             if (nr < 10) {
                 nr = '0' + nr;
             }
-            $('.show').attr('src', 'assets/media/small-loading.gif');
             $('.show').attr('src', 'assets/media/galleri/' + nr + '.JPG');
         }
         
