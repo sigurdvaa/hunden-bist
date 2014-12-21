@@ -625,10 +625,10 @@ section#rasene {
     margin: 50px auto; }
   /* line 54, E:/My Documents/GitHub/hunden-bist/assets/css/sections/rasene */
   section#rasene .wrap .raseholder {
-    -webkit-transition: -webkit-transform 0.15s ease-out 0s, opacity 0.5s ease-out 0s;
-       -moz-transition: -moz-transform 0.15s ease-out 0s, opacity 0.5s ease-out 0s;
-         -o-transition: -o-transform 0.15s ease-out 0s, opacity 0.5s ease-out 0s;
-            transition: transform 0.15s ease-out 0s, opacity 0.5s ease-out 0s; }
+    -webkit-transition: -webkit-transform 0.15s ease-out 0s, opacity 0.3s ease-out 0s;
+       -moz-transition: -moz-transform 0.15s ease-out 0s, opacity 0.3s ease-out 0s;
+         -o-transition: -o-transform 0.15s ease-out 0s, opacity 0.3s ease-out 0s;
+            transition: transform 0.15s ease-out 0s, opacity 0.3s ease-out 0s; }
     /* line 58, E:/My Documents/GitHub/hunden-bist/assets/css/sections/rasene */
     section#rasene .wrap .raseholder img {
       max-width: 250px;
