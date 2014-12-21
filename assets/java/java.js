@@ -136,6 +136,6 @@ function galleriKontroller() {
 function gjemElementer(){
     
     $('.hideblock').hide();
-    $('.raseholder.hide').css('visibility', 'hidden').css('opacity', '0').css('transform', 'scale(2,0)').css('height', '0');
+    $('.raseholder.hide').css('visibility', 'hidden').css('opacity', '0').css('transform', 'scale(0,0)').css('height', '0');
     
 }

@@ -392,7 +392,7 @@ a {
   text-decoration: none;
   display: inline-block;
   opacity: 0.8;
-  font-weight: bold;
+  font-weight: normal;
   -webkit-transition: all 0.15s ease-out 0s;
   -moz-transition: all 0.15s ease-out 0s;
   -o-transition: all 0.15s ease-out 0s;
@@ -458,7 +458,7 @@ header {
         /* line 37, E:/My Documents/GitHub/hunden-bist/assets/css/sections/header */
         header nav ul li a:after {
           content: "";
-          border-bottom: 2px solid transparent;
+          border-bottom: 0px solid transparent;
           width: 100%;
           position: absolute;
           bottom: -12px;
