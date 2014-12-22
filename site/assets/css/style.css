@@ -617,7 +617,7 @@ section#rasene {
           margin-left: -8px; }
   /* line 47, E:/My Documents/GitHub/hunden-bist/assets/css/sections/rasene */
   section#rasene .wrap hr {
-    width: 500px;
+    max-width: 90%;
     -webkit-border-radius: 50%;
             border-radius: 50%;
     border-top: 2px solid tan;
@@ -707,7 +707,7 @@ section#foreldrene .wrap img {
             border-radius: 46%; }
 /* line 22, E:/My Documents/GitHub/hunden-bist/assets/css/sections/foreldre */
 section#foreldrene .wrap hr {
-  width: 500px;
+  max-width: 70%;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   border-top: 2px solid tan;
@@ -726,7 +726,7 @@ section#galleri {
     position: relative; }
     /* line 9, E:/My Documents/GitHub/hunden-bist/assets/css/sections/galleri */
     section#galleri .wrap hr {
-      width: 500px;
+      max-width: 70%;
       -webkit-border-radius: 50%;
               border-radius: 50%;
       border-top: 2px solid tan;
