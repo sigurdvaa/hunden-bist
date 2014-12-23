@@ -1,5 +1,5 @@
 section#rasene
-    background: #ddd
+    background-color: #ddd
     overflow: hidden
     
     .wrap
@@ -11,21 +11,25 @@ section#rasene
                 
                 li
                     display: inline-block
-                    font-size: 15px
                     margin: 10px
                     width: 180px
                     position: relative
                     
                     &.aktivrase
-                        span
+                        a
                             border-bottom: 3px solid tan
                         
-                        span:hover
+                        a:hover, a:focus
+                            outline: 0
+                                
                             &:after
                                 content: ""
                                 border: none
-                        
-                    span
+                    
+                    a
+                        color: #333
+                        border-bottom: 3px solid #ddd
+                        font-size: 15px
                         cursor: pointer
                         padding-bottom: 5px
                         +transition(0.3s)
@@ -36,7 +40,9 @@ section#rasene
                             +position(absolute, null null -12px 50%)
                             +transition(0.2s)
                         
-                    span:hover
+                    a:hover, a:focus
+                        outline: 0
+                    
                         &:after
                             content: ""
                             border-left: 8px solid transparent
@@ -44,6 +50,7 @@ section#rasene
                             border-bottom: 8px solid tan
                             +position(absolute, null null -12px 50%)
                             margin-left: -8px
+                    
         hr
             max-width: 90%
             border-radius: 50%

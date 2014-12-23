@@ -17,6 +17,7 @@ function raseMeny() {
     
     
     $('.rasemeny').click(function(){
+        event.preventDefault();
         var $this = $(this),     
             $siblings = $this.parent().children(),
             position = $siblings.index($this);
@@ -43,8 +44,7 @@ function smoothScroll(duration) {
 
 function foreldreMeny() {
     
-    $('.bildeforelder').on('click', function(){
-       
+    $('.bildeforelder').on('click', function(){      
         if ($(this).hasClass('aktivforelder')) {
             $(this).removeClass('aktivforelder');
             $('.infoforelder').removeClass('aktivforelder');
