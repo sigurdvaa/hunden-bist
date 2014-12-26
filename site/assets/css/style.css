@@ -754,10 +754,10 @@ section#galleri {
       -moz-transition: all 0.15s ease-out 0s;
       -o-transition: all 0.15s ease-out 0s;
          transition: all 0.15s ease-out 0s;
-      border-bottom: 5px solid #efe; }
+      border: 2px solid #000; }
       /* line 24, D:/SIG/Documents/GitHub/hunden-bist/assets/css/sections/galleri */
       section#galleri .wrap img:hover {
-        border-color: tan; }
+        border-color: #efe; }
       /* line 28, D:/SIG/Documents/GitHub/hunden-bist/assets/css/sections/galleri */
       section#galleri .wrap img.show {
         background-image: url("../media/small-loader.gif");
